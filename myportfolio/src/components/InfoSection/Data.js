@@ -24,7 +24,7 @@ export const homeObjTwo = {
     headline: 'Check Out My Work',
     description: 'Here is a link to access some of the projects that I have worked on.',
     buttonLabel: 'Learn more',
-    imgStart: true,
+    imgStart: false,
     img: require('../../images/svg-1.svg').default, 
     alt: 'Car2',
     dark: false,
@@ -33,10 +33,10 @@ export const homeObjTwo = {
 };
 
 export const homeObjThree = {
-    id: 'services', 
-    lightBg: false,
-    lightText: true,
-    lightTextDesc: true,
+    id: 'signup', 
+    lightBg: true,
+    lightText: false,
+    lightTextDesc: false,
     topLine: 'Contact',
     headline: 'Get In Touch',
     description: 'Here is a link to get in contact with me.',
@@ -44,7 +44,7 @@ export const homeObjThree = {
     imgStart: false,
     img: require('../../images/svg-6.svg').default, 
     alt: 'Car',
-    dark: true,
-    primary: true,
-    darkText: false,
+    dark: false,
+    primary: false,
+    darkText: true,
 };
