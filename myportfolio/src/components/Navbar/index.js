@@ -42,22 +42,22 @@ const Navbar = ({ toggle }) => {
                         </NavItem>
                         <NavItem>
                             <NavLinks to="discover" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                Discover
+                                Projects
                             </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="services" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                Services
+                                History
                             </NavLinks>
                         </NavItem>
                         <NavItem>
                             <NavLinks to="signup" smooth={true} duration={500} spy={true} exact='true' offset={-80}>
-                                Sign Up
+                                Contact
                             </NavLinks>
                         </NavItem>
                     </NavMenu>
                     <NavBtn>
-                        <NavBtnLink to="/signin">Sign In</NavBtnLink>
+                        <NavBtnLink to="/signin">Admin</NavBtnLink>
                     </NavBtn>
                 </NavbarContainer>
             </Nav>
