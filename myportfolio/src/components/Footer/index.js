@@ -1,7 +1,8 @@
 import React from 'react'
 import {animateScroll as scroll} from 'react-scroll'
-import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
-import {FooterContainer, FooterWrap, FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights, SocialIcons, SocialIconLink} from './FooterElements'
+// import {FaFacebook, FaInstagram, FaYoutube, FaTwitter, FaLinkedin} from 'react-icons/fa'
+import {FooterContainer, FooterWrap, SocialMedia, SocialMediaWrap, SocialLogo, WebsiteRights } from './FooterElements'
+// import {FooterLinksContainer, FooterLinksWrapper, FooterLinkItems, FooterLinkTitle, FooterLink, SocialIcons, SocialIconLink} from './FooterElements'
 
 const Footer = () => {
 
@@ -12,7 +13,7 @@ const Footer = () => {
     return (
         <FooterContainer>
             <FooterWrap>
-                <FooterLinksContainer>
+                {/* <FooterLinksContainer>
                     <FooterLinksWrapper>
                         <FooterLinkItems>
                             <FooterLinkTitle>About Us</FooterLinkTitle>
@@ -49,12 +50,12 @@ const Footer = () => {
                                 <FooterLink to="/signin">Soundcloud</FooterLink>
                         </FooterLinkItems>
                     </FooterLinksWrapper>
-                </FooterLinksContainer>
+                </FooterLinksContainer> */}
                 <SocialMedia>
                     <SocialMediaWrap>
-                        <SocialLogo to='/' onClick={toggleHome}>Blake Davis</SocialLogo>
+                        <SocialLogo to='/' onClick={toggleHome}>bd</SocialLogo>
                         <WebsiteRights>Blake Davis © {new Date().getFullYear()} All rights reserved.</WebsiteRights>
-                        <SocialIcons>
+                        {/* <SocialIcons>
                             <SocialIconLink href="/" target="_blank" aria-label="Facebook">
                                 <FaFacebook />
                             </SocialIconLink>
@@ -70,7 +71,7 @@ const Footer = () => {
                             <SocialIconLink href="/" target="_blank" aria-label="LinkedIn">
                                 <FaLinkedin />
                             </SocialIconLink>
-                        </SocialIcons>
+                        </SocialIcons> */}
                     </SocialMediaWrap>
                 </SocialMedia>
             </FooterWrap>
